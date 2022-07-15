@@ -1,7 +1,7 @@
 # tflite-test
-This repo contains scripts and a tool to reproduce the openCL delegate issue with the `reduce_sum`/`Sum` node.
+This repo contains scripts and a tool to reproduce the openCL delegate issue with the `tf.stack`/`Pack` node.
 ## Building and converting the model
-* `model_files` folder contains a very simple model containing a `reduce_sum` node and its corresponding tflite version (FP32).
+* `model_files` folder contains a very simple model containing a `tf.stack` node and its corresponding tflite version (FP32).
   * You can also use `generate_dummy_model.py` to build the model and use `convert_model.py` to convert it to tflite.
 ## tflite_inference tool 
 We have implemented a small tool to feed an input to our sample model using `openCL` delegate and display the generated results.
