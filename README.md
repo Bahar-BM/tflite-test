@@ -31,7 +31,7 @@ $ make
 * Here, you must replace <path-to-ndk> with the absolute path of the ndk installed on your computer. If you installed NDK through Android studio, it is typically located at:
     `/home/<username>/Android/Sdk/ndk/<version>/` on Linux
 
-* `tensorflow_lite_cpp_2_9_1_edited_static` is TensorflowFlow Lite library (version 2.9.1) package.
+* `tensorflow_lite_cpp_2_9_1_edited_static` is TensorflowFlow Lite library (nightly version) package.
 ### Run INSTRUCTIONS ###
 WARNING: This step will write to your `/data/local/tmp` folder on device. Please make sure existing files in that folder are backed up as needed.
 
